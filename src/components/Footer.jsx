@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-200 dark:border-slate-700 pb-6">
                 <div className="md:max-w-114">
                     <a href="https://prebuiltui.com?utm_source=landing">
-                        <img className="h-9 md:h-9.5 w-auto shrink-0" src={theme === "dark" ? "/assets/logo-light.svg" : "/assets/logo-dark.svg"} alt="Logo" width={140} height={40} priority fetchPriority="high" />
+                        <img className="h-9 md:h-9.5 w-auto shrink-0" src={theme === "dark" ? "./assets/logo-light.svg" : "./assets/logo-dark.svg"} alt="Logo" width={140} height={40} priority fetchPriority="high" />
                     </a>
                     <p className="mt-6">
                         Launch your SaaS product in record time with our all-in-one platform designed for speed, flexibility and growth. Whether you`&apos;re a solo founder or a fast-moving team, we provide everything you need.
