@@ -1,12 +1,34 @@
-# React + Vite
+# Landing – Free Tailwind CSS Landing Page Template
+#### Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ - [Demo](https://themewagon.github.io/Landing-react/)
 
-Currently, two official plugins are available:
+#### Download
+ - [Download from ThemeWagon](https://themewagon.com/themes/landing-react/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+1. Clone Repository
+```
+git clone https://github.com/themewagon/Landing-react.git
+```
+2. Install Dependencies
+```
+npm i
+```
+3. Run the development server:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run dev
+```
+
+## Author 
+```
+Design and code are completely written by PrebuiltUI and the development team. 
+```
+
+## License
+
+ - Design and Code is Copyright &copy; [PrebuiltUI](https://prebuiltui.com/)
+ - Licensed under [MIT]
+ - Distributed by [ThemeWagon](https://themewagon.com)
