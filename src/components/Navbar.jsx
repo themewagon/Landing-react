@@ -24,7 +24,7 @@ export default function Navbar() {
             </a>
             <div className="hidden items-center md:gap-8 lg:gap-9 md:flex lg:pl-20">
                 {navLinks.map((link) => (
-                    <Link key={link.name} href={link.href} className="hover:text-slate-600 dark:hover:text-slate-300">
+                    <Link key={link.name} to={link.href} className="hover:text-slate-600 dark:hover:text-slate-300">
                         {link.name}
                     </Link>
                 ))}
@@ -32,7 +32,7 @@ export default function Navbar() {
             {/* Mobile menu */}
             <div className={`fixed inset-0 flex flex-col items-center justify-center gap-6 text-lg font-medium bg-white/60 dark:bg-black/40 backdrop-blur-md md:hidden transition duration-300 ${openMobileMenu ? "translate-x-0" : "-translate-x-full"}`}>
                 {navLinks.map((link) => (
-                    <Link key={link.name} href={link.href}>
+                    <Link key={link.name} to={link.href}>
                         {link.name}
                     </Link>
                 ))}
